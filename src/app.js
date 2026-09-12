@@ -7,3 +7,8 @@ btnCount.addEventListener("click", () => {
   count += 1;
   counterElement.textContent = count;
 });
+const btnReset = document.getElementById("btn-reset");
+btnReset.addEventListener("click", () => {
+  count = 0;
+  counterElement.textContent = count;
+});
