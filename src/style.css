@@ -8,11 +8,10 @@ body {
 }
 
 .card {
-  background: white;
+  background: #fef3c7;
+  color: #78350f;
+  border: 2px solid #f59e0b;
   padding: 2rem;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 button {
